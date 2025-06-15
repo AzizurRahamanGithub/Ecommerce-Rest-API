@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+# media/
+# staticfiles/
+
+# If you use Postgres:
+*.pgsql
+*.psql
+
+# If you use environment variables:
+.env
+.env.*
+
+# VSCode settings (if you use VSCode):
+.vscode/
+
+# PyCharm settings:
+.idea/
+
+# macOS:
+.DS_Store
+
+# Windows:
+Thumbs.db
+
+# Pip environment files:
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtualenv:
+venv/
+ENV/
+env/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.cache
+
+# pytest
+.pytest_cache/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# JWT token files (if saved locally for testing)
+*.jwt
+
+# migrations (optional if you want clean repo without migration files)
+# Comment this block if you want to keep migrations
+# **/migrations/*.py
+# **/migrations/*.pyc
+
+# Docker
+*.pid
+
+# If using JetBrains Rider
+.idea/
+
+# gunicorn
+gunicorn.pid
+
+# Pyre type checker
+.pyre/
