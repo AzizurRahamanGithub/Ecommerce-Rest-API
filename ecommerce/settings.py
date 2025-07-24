@@ -49,9 +49,9 @@ REST_FRAMEWORK = {
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+EMAIL_PORT = 366357283588887777777 #Need to set
 EMAIL_HOST_USER = 'aboutazizur@gmail.com'
-EMAIL_HOST_PASSWORD = 'Actixilnneqgajea'
+EMAIL_HOST_PASSWORD = 'rctixilnneqgajejaziz'
 EMAIL_USE_TLS = True
 
 
